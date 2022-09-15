@@ -168,13 +168,17 @@
             <li class="footer-item"><a href="" class="footer-soc-link link"><svg class="footer-soc-icon" width="20" height="20"> <use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
     </ul>
 </div>
-<h4>ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h4>
+
+
+<h4 class="footer-title-fourse" >ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h4>
+<div class="footer-button-wrap">
 <form class="modal-form-first">
-    <label class="modal-label">E-mail<input type="emeil" name="user-emeil"
+    <label for="singl-user-emeil" class="singl-modal-label">E-mail<input type="emeil" name="user-emeil" class="singl-user-emeil" 
         /></label>
 </form>
-<button type="button" class="footer-button"><span class="footer-button-text">Підписатися</span><svg class="footer-button-icon"><use href="./images/icons.svg#icon-send" ></use></svg></button>
 
+<button type="button" class="footer-button"><span class="footer-button-text">Підписатися</span><svg class="footer-button-icon" width="24" height="24"><use href="./images/icons.svg#icon-send" ></use></svg></button>
+ </div> 
 </div>
 </div>
 </footer> 
@@ -203,29 +207,32 @@
 <label for="user-emeil" class="modal-label">Пошта</label>
 <div class="input-wrap">
   <input type="emeil" name="user-emeil" class="modal-input" id="user-emeil"/>
-  <svg class="modal-icon" width="18" height="18"><use href="./images/icons.svg#icon-email"></use> </svg>
+  <svg class="modal-icon" width="18" height="18"><use href="./images/icons.svg#icon-check"></use> </svg>
 </div>
 </div>
 <div class="modal-field">
     <label for="user-text" class="modal-label" placeholder="">Коментар</label>
     <textarea name="user-text" id="user-text" class="modal-text" placeholder="Введіть текст"></textarea>
 </div>
-<div class="">
 <input type="checkbox" name="privacy" id="privacy"
- class="modal-check visually-hidden" value="true"/>
+ class="modal-check" value="true"/>
           <label for="privacy" class="check-text">
-            <svg class="check-icon" width="16" height="15">
-              <use href="./img/icons.svg#icon-check"></use>
-            </svg>
-          <span class="agree">Погоджуюся з розсилкою та приймаю  </span><a href="" class="footer-form-link">Умови договору</a></label >
-        </div>
+            <!-- <span> -->
+                <!-- <svg class="check-icon" width="16" height="15"> -->
+                  <!-- <use href="./img/icons.svg#icon-check"></use> -->
+                <!-- </svg> -->
+              <!-- </span>  -->
+        
+          Погоджуюся з розсилкою та приймаю<a href="" class="footer-form-link link"><span class="footer-link-text">Умови договору</span></a></label >
+        
 <button type="submit" class="button-send">Відправити</button>
+<!-- <button type="button" class="fict-button">Відправити</button> -->
 </div>
 </div>
 </form>
 
 
-
+<!-- ./images/icons.svg#icon-email -->
 
 
 

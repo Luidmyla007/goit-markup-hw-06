@@ -884,12 +884,17 @@ padding: 40px;
 
 .close-modal{
     position: absolute;
-    top: 5px;
-    right: 5px;   
+    top: 17px;
+    right: 33px;   
 display: flex;
 justify-content: center;
 background-color: transparent;
 border: transparent;
+}
+
+.close-modal:hover{
+    color: var(--accent-color);
+    padding: 0;
 }
 
 .is-hidden{
@@ -919,7 +924,7 @@ margin-bottom: 12px;
     height: 40px;
     border: 1 solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: transparent;
     color: var(--primary-text-color);
     font-size: 14px;
@@ -935,6 +940,14 @@ padding-left: 35px;
     color: var(--title-text-color);
     height: 40px;
 
+}
+
+.modal-input:focus{
+    outline-color : var(--accent-color);
+}
+
+.modal-input:focus + .modal-icon{
+    fill: var(--accent-color);
 }
 
 .modal-label{
@@ -959,22 +972,57 @@ padding-left: 35px;
 .modal-text::placeholder{
     font-size: 11px;
     padding-left: 20px;
+    color: rgba(117, 117, 117, 0.5);;
 }
 
 .modal-icon{
     position: absolute;
-    left: 12px;
-    top: 50%;
+    left: 12px; 
+    top: 50%;  
     transform: translateY(-50%);
-
-
+    fill: #212121;
 }
 
 .modal-field{
-    position: relative;
-    margin-bottom: 10px;
+       margin-bottom: 10px;
 }
 
 .input-wrap{
+    position: relative;
+}
+
+
+.agree{
+   font-weight: 400; 
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03;
 
 }
+.footer-form-link{
+    font-weight: 400; 
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03;
+    color: var(--accent-color);
+}
+
+.button-send{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    vertical-align: top;
+    letter-spacing: 0.03
+    background-color: var(--color1);
+    color: var(--title-text-color);
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    border:1px solid var(--color1);
+
+
+
+}
+
+   

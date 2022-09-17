@@ -597,6 +597,7 @@ background-color: var(--accent-color);
     height: 50px;
     border-radius: 4%;
     border-color: rgba(255, 255, 255, 0.3);
+    padding-left: 16px;
 }
 
 .footer-title-fourse{
@@ -1041,6 +1042,7 @@ padding-left: 32px;
     height: 120px;
      resize: none; 
 outline: none;
+padding-left: 23px;
 
 
 }
@@ -1056,7 +1058,7 @@ outline: none;
 
 .modal-text::placeholder{
     font-size: 11px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: rgba(117, 117, 117, 0.5);;
 }
 

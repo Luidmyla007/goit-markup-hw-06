@@ -1058,7 +1058,6 @@ padding-left: 23px;
 
 .modal-text::placeholder{
     font-size: 11px;
-    /* padding-left: 20px; */
     color: rgba(117, 117, 117, 0.5);;
 }
 

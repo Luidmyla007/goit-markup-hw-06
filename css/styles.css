@@ -1042,8 +1042,7 @@ padding-left: 40px;
 .modal-input::placeholder{
     color: var(--title-text-color);
     height: 40px;
-    /* padding-top: 15px; */
-}
+ }
 
 .modal-input:hover,.modal-input:focus{
   border-color: var(--accent-color);
@@ -1130,7 +1129,7 @@ padding-left: 23px;
     margin-right: 7px;
     margin-left: 10px;
     fill: none;
-    background-image: url(./images/Vector.svg);
+    background-image: url(../images/Vector.svg);
     background-position: center;
     background-size: contain;
     /* background-origin: border-box; */
@@ -1153,7 +1152,7 @@ padding-left: 23px;
     }
 
 .modal-check:checked + .check-icon{
-    background-image: url(./images/check.svg) ;
+    background-image: url(../images/check.svg) ;
     fill: var(--accent-text-color);
     background-color: var(--accent-color);
 }
